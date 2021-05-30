@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="pt br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TELA DE LOGIN</title>
+
+    <link rel="stylesheet" href="css/TelaLogin.css" />
+    <script src="js/TelaLogin.js"></script>
+</head>
+
+<style>
+    .botao-entrar {
+        font-size: 18px;
+        width: 100%;
+        background-color: #ffbb00;
+        color: rgb(0, 0, 2);
+        cursor: pointer;
+        border: none;
+        padding: 10px
+    }
+    
+    .Container {
+        background-color: #161616;
+        position: absolute;
+        padding: 1em 2em;
+        width: 400px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 50vh;
+        transform: translateY(-50%);
+        border-radius: 5px;
+    }
+    
+    h1 {
+        padding: 0;
+        margin: 0;
+        color: #ffffff;
+        font-family: "Arial";
+    }
+    
+    body {
+        color: rgb(255, 251, 251);
+        background-color: rgb(5, 10, 15);
+    }
+</style>
+
+<body>
+    <div class="Container">
+        <h1>DIÁRIO DE NOTAS</h1>
+        <form>
+            <p>Faça seu login para acessar:</p>
+            <div class="container-email">
+                <p>Email:</p>
+                <input id="Email" type="text" placeholder="Digite seu email" />
+            </div>
+
+            <div class="container-Senha">
+                <p>Senha:</p>
+                <input id="Senha" type="text" placeholder="Digite sua Senha" />
+            </div>
+
+            <div class="Opções">
+                <p>Não tem Cadastro? Clique Aqui!</p>
+            </div>
+
+            <input id="btnEntrar" class="botao-entrar" type="button" value="Entrar" />
+
+        </form>
+
+    </div>
+</body>
+
+</html>

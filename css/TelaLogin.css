@@ -1,0 +1,12 @@
+.Container {
+    background-color: #a8bfb6;
+    position: absolute;
+    padding: 1em 2em;
+    width: 400px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 50vh;
+    transform: translateY(-50%);
+    border-radius: 5px;
+}
